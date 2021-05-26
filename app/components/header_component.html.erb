@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ViewProxyDemo</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= helpers.csrf_meta_tags %>
+    <%= helpers.csp_meta_tag %>
+
+    <%= helpers.stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= helpers.javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="bg-purple-500 text-white py-3 px-4">
+      MyApp
+    </header>
